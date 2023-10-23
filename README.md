@@ -8,7 +8,7 @@ When starting a pomodoro timer, you can enable a scene which you should configur
 
 These scene identifiers are expected, so make sure yours match:
 
- - `scene.normal` when stopping the timer
+ - `normal` when stopping the timer
  - `pomodoro_enabled` when the timer is running
  - `pomodoro_suspended` when the timer is paused (including during a break)
  - `pomodoro_short_break` during a short break
@@ -19,8 +19,8 @@ These scene identifiers are expected, so make sure yours match:
 
 ```
 {
-    "config": "your-long",
-    "url": "your Home Assistant url"
+    "config": "your-long-lived-token",
+    "url": "http://localhost:8123"
 }
 ```
 
