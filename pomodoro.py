@@ -40,15 +40,15 @@ argument_mapping = {
         "skip": "scene.normal",
     },
     "short-break": {
-        "start": "scene.pomodoro_pause_short",
+        "start": "scene.pomodoro_short_break",
         "pause": "scene.pomodoro_suspended",
-        "resume": "scene.pomodoro_pause_short",
+        "resume": "scene.pomodoro_short_break",
         "skip": "scene.normal",
     },
     "long-break": {
-        "start": "scene.pomodoro_pause_long",
+        "start": "scene.pomodoro_long_break",
         "pause": "scene.pomodoro_suspended",
-        "resume": "scene.pomodoro_pause_long",
+        "resume": "scene.pomodoro_long_break",
         "skip": "scene.normal",
     },
 }
