@@ -26,10 +26,14 @@ These scene identifiers are expected, so make sure yours match:
 
 Test it with `./pomodoro.py pomodoro start`
 
-In Gnome Pomodoro, go to *Preferences*, *Custom Actions...*, click the + button, and:
+In Gnome Pomodoro, enable the Actions plugin:
+
+![Gnome Pomodoro Plugins](pomodoro-actions.png)
+
+Go to *Preferences*, *Custom Actions...*, click the + button, and:
  - give it a name, like "Home Assistant"
  - Enter the path to `pomodoro.py` followed by `$(state) $(triggers)`
  - Enable all of Pomodoro, Short Break and Long Break
  - Toggle on all the triggers
 
-![Gnome Pomodoro](gnome-pomodoro-action.png)
+![Gnome Pomodoro Action](gnome-pomodoro-action.png)
