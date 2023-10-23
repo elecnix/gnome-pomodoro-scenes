@@ -77,11 +77,7 @@ if sys.argv[2] not in argument_mapping[sys.argv[1]]:
 data = {}
 data["entity_id"] = argument_mapping[sys.argv[1]][sys.argv[2]]
 
-# append arguments to /tmp/pomo file
-with open("/tmp/pomo", "a") as f:
-    msg = f"{sys.argv[1:]} --> {data}\n"
-    f.write(msg)
-    syslog.syslog(syslog.LOG_ERR, msg)
+syslog.syslog(syslog.LOG_INFO, f"{sys.argv[1:]} --> {data}\n")
 
 # Send the request
 response = post(url, headers=headers, json=data)
