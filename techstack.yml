@@ -1,7 +1,8 @@
 repo_name: elecnix/gnome-pomodoro-scenes
-report_id: 187fa37ab383ded937950f3fb561f788
+report_id: 73653ab9c8895befb950df1f5de6f65a
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:35:34+00:00'
+timestamp: '2024-01-04T14:59:20+00:00'
 requested_by: elecnix
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/elecnix/gnome-pomodoro-scenes
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,4 +27,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/elecnix/gnome-pomodoro-scenes
   detection_source: Repo Metadata
